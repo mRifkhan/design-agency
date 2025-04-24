@@ -1,0 +1,44 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+ }
+  
+.navbar-brand {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar-nav .nav-item {
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .dropdown-menu {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white; 
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: rgb(146, 144, 144); 
+  background-color: black;
+}
+
+.dropdown-divider {
+  background-color: white; 
+  border-color: white; 
+}
+
+.footer {
+    margin-top: auto;
+    color: #000;
+    font-size: 1rem;
+  }
